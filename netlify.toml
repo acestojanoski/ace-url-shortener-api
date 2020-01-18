@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  functions = "dist"
+
+[context.develop]
+  environment = { CONNECTION_STRING = "#ENC-VAL#YtvIK6098WI7Uc4Omw09Br5INXJaSrQdnUihaUZkIwiQLT9FJcU+dhfToITAcbtTXvEIFKa3sCM4C/Aj0zizo6LyhKXfD8FDm9J4UhqhAOcdXkiYDlbkSy/uK23N9rnbtkUQuP2MjHorNuvE7CKccXuS82uXOizowLBzuZ0lvfZul1/KZk3vVN9JyvlWjiu8wEjbnPkOXhWyM16HHboVk/NYQ16aE7cmSFVw", CORS_ORIGINS = "http://localhost:3000" }
+
+[context.master]
+  environment ={ CONNECTION_STRING = "#ENC-VAL#MSjZVID45mbGEtH6GaWsvmGPq+5vJ6KkWtlyVXyu9PHi59w4WLZBpazaciT15O3NsUzlgdGYqvtyX9+jFP9htpEI2wQhDZ0zqu98NKJrrVK7Yx49IMnv3zU7uRKNnOy2x9ygmBe1PN/P/LjJ22wBTwo2oxliGF58YtV9KIIc0VVYYuYzrhadpM5H6jOcQ2bZAp6r5NcoOarEI1pW9tG9bfAZNhrYlL0jfd2PeXXW5AdWhrqG/d829p9lTjwog4OqdTjMTxc=", CORS_ORIGINS = "http://localhost:3000" }
